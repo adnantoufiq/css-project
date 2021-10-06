@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&display=swap');
+
+body{
+    background-image: url("https://www.teahub.io/photos/full/223-2235679_pink-geometric-wallpaper.jpg");
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Playfair Display', serif;
+     
+}
+
+.navbar {
+  max-width: 1333px; /* applying max-width */
+  margin: 0 auto; /* center */
+  
+}
+
+p{
+  line-height: 2em;
+  font-weight: 550;
+}
+
+.main-content{
+        max-width: 400px;
+        padding-top: 40;
+        margin: auto;
+}
+.name{
+  background-color: orange;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li{
+    float: left;
+    
+}
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    max-width: 700;
+    border-radius: 50px;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: black;
+  }
+
+
+button:hover{
+    background-color:orange;
+}
